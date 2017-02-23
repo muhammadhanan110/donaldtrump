@@ -34,15 +34,17 @@
     <script src="js/controller.js"></script>
   </head>
   <body ng-app="starter">
+	
+	<ion-pane ng-controller="myhome">
+		<ion-nav-bar class="bar-stable">
+		  <ion-nav-back-button>
+		  </ion-nav-back-button>
+		  <div class="buttons">
+			<button class="button button-icon ion-more" ng-click="popover.show($event)">
+			</button>
+		  </div>
+		</ion-nav-bar>
 
-    <ion-pane ng-controller="myhome">
-      <div class="bar bar-header">
-      <h1 class="title">Popover</h1>
-      <div class="buttons">
-        <button class="button button-icon ion-more" ng-click="popover.show($event)">
-        </button>
-      </div>
-    </div>
       
       <!--
         <ion-header-bar class="bar-stable">
