@@ -1,0 +1,11 @@
+{
+  "android":{
+      "release":{
+          "keystore":"dt-key.keystore",
+          "storePassword":"123456",
+          "alias":"dt-key",
+          "password":"123456",
+          "keystoreType":""
+      }
+  }
+}
